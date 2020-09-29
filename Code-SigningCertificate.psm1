@@ -13,7 +13,15 @@ Get-CodeSignScript; Sign-Script -Script C:\Contoso\ContosoCompanyScript.ps1
 This can be placed in one of the 6 profile locations. See: https://blogs.technet.microsoft.com/heyscriptingguy/2012/05/21/understanding-the-six-powershell-profiles/ 
  
 #> 
- 
+
+##### FILL OUT THIS SECTION #####
+
+#Name of the Code Signing Certificate 
+$TemplateName = ""
+
+
+##### DO NOT EDIT BELOW THIS SECTION #####
+
  
  
 # Disables Powershel Console Beep 
@@ -29,7 +37,7 @@ Function Get-CodeSignCert {
 if($store -eq $null){ 
  
        Write-Host "Obtaining Code Signing Certificate" 
-       Get-Certificate -Template codesigning-crutchfield -CertStoreLocation Cert:\CurrentUser\My 
+       Get-Certificate -Template $TemplateName -CertStoreLocation Cert:\CurrentUser\My 
        write-host "Moving Certificate to Machine Trusted Publisher store" 
        Get-ChildItem Cert:\CurrentUser\My\ -CodeSigningCert | Export-Certificate -Type CERT -FilePath $cert_import -Force 
        Import-Certificate -FilePath $cert_import -CertStoreLocation $machine_cert 
@@ -108,3 +116,4 @@ else{
 } 
 } 
 }
+

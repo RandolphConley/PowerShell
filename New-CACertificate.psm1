@@ -1,4 +1,5 @@
-﻿<#
+﻿Function New-CaCertificate {
+<#
 
 .SYNOPSIS
 Script to ease the pain of creating/submitting/automating the process of creating a certificate for on-prem CA
@@ -152,4 +153,5 @@ if ($import -eq "y")
 else
 {
     "Fine fine fine, I quit..."
+}
 }
