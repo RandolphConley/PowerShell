@@ -15,6 +15,7 @@
        .NOTES
        Runas account needs permissions to change/take ownership - like local admin or domain admin
        SMB Security modification will take longer than local - so be patient while the cookies bake.
+	Composed by Randolph Conley
    #>
 
 Function Log($message){

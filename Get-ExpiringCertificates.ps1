@@ -10,7 +10,7 @@ Winrm to remote machine, get-childitem certificates -expiring in 90 days and sel
 
 .NOTES
 Account Needs to have remote winrm access to the Sub ordinate CA as well as the remote servers
-
+Composed by Randolph Conley
 #>
 
 # Declared variables You'll need to declare the filepath of the server list 

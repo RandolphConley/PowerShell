@@ -10,7 +10,7 @@ Things you will need to fill out:
 
 -Logging section (all of it)
 -Search Scopes (see examples of what you want to look for)   
-
+Composed by Randolph Conley
 #>
 
 

@@ -11,7 +11,7 @@ Get-CodeSignScript; Sign-Script -Script C:\Contoso\ContosoCompanyScript.ps1
  
 .NOTES 
 This can be placed in one of the 6 profile locations. See: https://blogs.technet.microsoft.com/heyscriptingguy/2012/05/21/understanding-the-six-powershell-profiles/ 
- 
+Composed by Randolph Conley
 #> 
 
 ##### FILL OUT THIS SECTION #####

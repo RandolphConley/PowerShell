@@ -12,7 +12,7 @@ Required Variables: Subject, Exportable, SAN1, Template. Up to 5 SANs can be inc
 
 .NOTES
 Variables that Require user modification to the script: See "Subject Variables" Section.
-
+Composed by Randolph Conley
 #>
 
 
