@@ -26,7 +26,7 @@
 
 .RELEASENOTES VBS version: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/aa387290(v=vs.85) 
 
-.UPDATES Updated for use with iVision(c)
+.NOTES Modified by StevenLtheThird to streamline the audit process
 
 #>
 
